@@ -19,4 +19,7 @@ In order to do this we:
 # Notes
    - Kernel modules of the form `g_*` must be unloaded before this script is ran
    - If necesary unload them, run the script and then reload them
+   - We can check whether the comand was successful if:
+      - `/dev/hidg0` exists
+      - And the contents  of `/sys/kernel/config/usb_gadget/penpi/UDC` is not empty
 
