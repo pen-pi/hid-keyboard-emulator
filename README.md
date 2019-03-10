@@ -4,7 +4,7 @@ This script must be run once to create the fake hid device.
 Will ussualy load the device under `/dev/hidg0`.   
 This scrupt must be run as `root`. 
 
-# Executing It At Boot
+# Executing at Boot
 To execute this command at boot we can execute the script by invoking it inside of `/etc.rc.local`.   
 This will execute at the end of usermode.   
 We must make sure not to break the file and our program must `exit 0`.   
