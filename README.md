@@ -6,7 +6,7 @@ This scrupt must be run as `root`.
 
 # Executing at Boot
 To execute this command at boot we can execute the script by invoking it inside of `/etc.rc.local`.   
-This will execute at the end of usermode.   
+This will execute at the end of single user mode, when entering multiuser mode (at runlevel change).   
 We must make sure not to break the file and our program must `exit 0`.   
 
 
