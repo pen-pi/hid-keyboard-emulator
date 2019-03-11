@@ -2,7 +2,7 @@
 
 This script must be run once to create the fake hid device.   
 Will ussualy load the device under `/dev/hidg0`.   
-This scrupt must be run as `root`. 
+This script must be run as `root`. 
 
 # Executing at Boot
 To execute this command at boot we can execute the script by invoking it inside of `/etc.rc.local`.   
