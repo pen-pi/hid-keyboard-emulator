@@ -1,4 +1,4 @@
-# HID Creator Script
+# HID Creator Script (Deprecated)
 
 This script must be run once to create the fake hid device.   
 Will ussualy load the device under `/dev/hidg0`.   
