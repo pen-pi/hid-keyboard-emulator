@@ -7,7 +7,7 @@ echo 0x0104 > idProduct
 echo 0x0100 > bcdDevice
 echo 0x0200 > bcdUSB # This makes it a usb2 capable device
 mkdir -p strings/0x409
-echo "fedcba9876543210" > strings/0x409/serialnumber
+echo "abcdef0123456789" > strings/0x409/serialnumber
 echo "PenPi Team 10" > strings/0x409/manufacturer
 echo "PenPi Keyboard" > strings/0x409/product
 mkdir -p configs/c.1/strings/0x409
